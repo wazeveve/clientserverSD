@@ -1,7 +1,7 @@
 import socket as s
 
 HOST_SERVER = '127.0.0.1'
-PORT_SERVER = '50000'
+PORT_SERVER = 50001
 
 with s.socket(s.AF_INET, s.SOCK_STREAM) as client:
 
