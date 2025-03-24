@@ -19,7 +19,7 @@ with s.socket(s.AF_INET, s.SOCK_STREAM) as server:
 
     data = connection.recv(1024).decode('utf-8')
 
-    connection.send(data)
+    connection.send(data.encode())
 
 
     
